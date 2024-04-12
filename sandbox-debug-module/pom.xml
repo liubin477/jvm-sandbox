@@ -25,6 +25,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.7</version>
                 <configuration>
                     <skip>true</skip>
                     <check/>
@@ -63,7 +64,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+            <version>33.1.0-jre</version>
         </dependency>
 
         <!-- 给DEBUG模块单独配置一个日志 -->
@@ -75,7 +76,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.1</version>
+            <version>1.2.13</version>
         </dependency>
 
     </dependencies>

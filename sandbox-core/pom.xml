@@ -111,7 +111,7 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.1</version>
+            <version>1.2.13</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -126,24 +126,19 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.4</version>
+            <version>2.16.1</version>
         </dependency>
 
         <!-- jetty server -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>8.1.2.v20120308</version>
+            <version>9.4.54.v20240208</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
-            <version>8.1.2.v20120308</version>
-        </dependency>
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-websocket</artifactId>
-            <version>8.1.2.v20120308</version>
+            <version>9.4.54.v20240208</version>
         </dependency>
 
         <!-- asm -->
@@ -166,7 +161,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+            <version>33.1.0-jre</version>
         </dependency>
 
     </dependencies>
